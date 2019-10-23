@@ -41,7 +41,6 @@ const initialState = {
     user: {
       id: '',
       name: '',
-      password: '',
       email: '',
       entries: 0,
       joined: '',
@@ -57,7 +56,6 @@ class App extends Component {
     this.setState({user:  {
       id: data.id,
       name: data.name,
-      password: data.password,
       email: data.email,
       entries: data.entries,
       joined: data.joined,
